@@ -1,0 +1,20 @@
+form{
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+
+}
+
+.botton{
+    background-color: green;
+}
+form input{
+    background-color: lightskyblue;
+}
+textarea{
+    background-color: lightcyan;
+}

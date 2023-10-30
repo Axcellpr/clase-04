@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img.jpg);
+}
+
+.restaurant-card {
+    background: linear-gradient(135deg, #007ACC, #0094FF);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #37cae4;
+    width: 700px;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu, .platos {
+    background: rgba(21, 38, 190, 0.9);
+    border-radius: 5px;
+    padding: 20px;
+    width: 48%;
+}
+
+.menu h2, .platos h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+.plato {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.plato img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(135deg, #007ACC, #0094FF);
+    padding: 10px;
+}
